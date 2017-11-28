@@ -51,6 +51,7 @@ class Client(object):
             'event': event,
             'environment': kwargs.get('environment'),
             'severity': kwargs.get('severity'),
+            'customer': kwargs.get('customer'),
             'correlate': kwargs.get('correlate', None) or list(),
             'service': kwargs.get('service', None) or list(),
             'group': kwargs.get('group'),
